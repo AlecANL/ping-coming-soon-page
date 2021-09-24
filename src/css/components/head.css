@@ -1,0 +1,32 @@
+.main__heading {
+  text-align: center;
+}
+.main__heading h1 {
+  margin-block-start: 2rem;
+  margin-block-end: 0.9375rem;
+}
+.main__heading h1 span {
+  color: var(--soft-grey);
+  font: var(--mobile-headline1);
+}
+.main__heading h1 strong {
+  font: var(--mobile-headline1);
+  color: var(--just-black);
+}
+
+.main__heading .tag {
+  text-transform: uppercase;
+  font: var(--mobile-small);
+}
+@media screen and (min-width: 768px) {
+  .main__heading h1 span,
+  .main__heading h1 strong {
+    font: var(--desktop-headline1);
+  }
+  .main__heading h1 strong {
+    font-weight: 700;
+  }
+  .main__heading .tag {
+    font: var(--desktop-small);
+  }
+}

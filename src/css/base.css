@@ -1,0 +1,32 @@
+:root {
+  --baseFont: 'Libre Franklin', sans-serif;
+  --soft-grey: #969696;
+  --just-black: #15202a;
+  --soft-blue: #b8c7ed;
+  --just-blue: #4c7bf3;
+  --just-white: #fff;
+  --mobile-headline1: 400 1.375rem / 2rem var(--baseFont);
+  --mobile-small: bold 1.25rem / 1.5rem var(--baseFont);
+  --desktop-headline1: 400 3rem / 3.75rem var(--baseFont);
+  --desktop-small: bold 2rem / 2.375rem var(--baseFont);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: var(--baseFont);
+}
+img {
+  max-inline-size: 100%;
+}
+.wrapper {
+  max-inline-size: 712px;
+  margin: auto;
+}
+.main-content {
+  text-align: center;
+  padding-inline: 2rem;
+  padding-block-start: 5.0625rem;
+  padding-block-end: 7.5rem;
+}

@@ -1,0 +1,32 @@
+.footer {
+  padding-inline: 2rem;
+}
+.footer-content p {
+  color: #9b9b9b;
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.icon i {
+  color: var(--just-blue);
+  font-size: 0.9375rem;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 30px;
+  inline-size: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--just-blue);
+  transition: all 0.2s ease-in-out;
+}
+.icon:hover {
+  background-color: var(--just-blue);
+}
+.icon:hover i {
+  color: var(--just-white);
+}

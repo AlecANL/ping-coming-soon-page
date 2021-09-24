@@ -1,0 +1,24 @@
+.btn {
+  padding-inline: 1.5rem;
+  padding-block: 0.75rem;
+  border-radius: 1.75rem;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:hover {
+  opacity: 0.5;
+}
+.is-blue {
+  background-color: var(--just-blue);
+  color: var(--just-white);
+  text-transform: capitalize;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    padding-block: 1.125rem;
+  }
+}
